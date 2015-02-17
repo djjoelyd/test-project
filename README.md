@@ -1,8 +1,6 @@
-# grunt-frontend-boilerplate
+# Joel's grunt-frontend-boilerplate
 
-> Simple Grunt boilerplate for frontend workflow
-
-Full information and instructions can be found in my supporting article, [A Beginner's Guide To Grunt: Redux](http://mattbailey.io/a-beginners-guide-to-grunt-redux/).
+Simple Grunt boilerplate for frontend workflow
 
 ## Getting Started
 
