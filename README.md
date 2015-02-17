@@ -4,15 +4,15 @@ Simple Grunt boilerplate for frontend workflow
 
 ## Getting Started
 
-To use the code [download it](https://github.com/matt-bailey/grunt-frontend-boilerplate/archive/master.zip), or clone it:
+To use the code [download it](https://github.com/djjoelyd/test-project/archive/master.zip), or clone it:
 
 ```bash
-git clone https://github.com/matt-bailey/grunt-frontend-boilerplate.git
+git clone https://github.com//djjoelyd/test-project.git
 ```
 
 Then install the dependencies:
 
-```bash
+```
 npm install
 ```
 
@@ -20,31 +20,34 @@ npm install
 
 Simply run:
 
-```bash
+```
+grunt exec
+```
+then
+
+```
 grunt
 ```
 
-A number of other task aliases are available, such as `grunt prod` and `grunt dev`. Full details can be found in the [accompanying article](http://mattbailey.io/a-beginners-guide-to-grunt-redux/).
 
 ## Included Stuff
 
 - [`time-grunt`](https://github.com/sindresorhus/time-grunt)
-- [`load-grunt-config`](https://github.com/firstandthird/load-grunt-config)
-- [`grunt-concurrent`](https://github.com/sindresorhus/grunt-concurrent)
 - [`grunt-contrib-clean`](https://github.com/gruntjs/grunt-contrib-clean)
+- [`grunt-contrib-copy`](https://github.com/gruntjs/grunt-contrib-copy)
 - [`grunt-contrib-imagemin`](https://github.com/gruntjs/grunt-contrib-imagemin)
-- [`grunt-sass`](https://github.com/sindresorhus/grunt-sass)
-- [`grunt-contrib-uglify`](https://github.com/gruntjs/grunt-contrib-uglify)
 - [`grunt-contrig-jshint`](https://github.com/gruntjs/grunt-contrib-jshint)
-- [`jshint-stylish`](https://github.com/sindresorhus/jshint-stylish)
+- [`grunt-contrib-uglify`](https://github.com/gruntjs/grunt-contrib-uglify)
 - [`grunt-contrib-watch`](https://github.com/gruntjs/grunt-contrib-watch)
+- [`jshint-stylish`](https://github.com/sindresorhus/jshint-stylish)
+- [`grunt-exec`](https://github.com/jharding/grunt-exec)
+- [`grunt-open`](https://github.com/jsoverson/grunt-open)
+- [`grunt-sass`](https://github.com/sindresorhus/grunt-sass)
 
 ## Help...
 
-Check out the supporting article, [A Beginner's Guide To Grunt: Redux](http://mattbailey.io/a-beginners-guide-to-grunt-redux/).
-
-Feel free to [Leave a comment](http://mattbailey.io/a-beginners-guide-to-grunt-redux/) on the article, or [post an issue](https://github.com/matt-bailey/grunt-frontend-boilerplate/issues) here on Github.
+Feel free to [post an issue](https://github.com/djjoelyd/test-project/issues) here on Github.
 
 ---
 
-Created by [Matt Bailey](http://mattbailey.io/).
+Created by [Joel Delane](http://joeldelane.com/).
