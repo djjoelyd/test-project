@@ -73,6 +73,20 @@ module.exports = function(grunt) {
           }]
       }
     },
+    cssmin: {
+      target: {
+        options: {
+          rebase: false
+        },
+        files: [{
+          expand: true,
+          cwd: 'dist/styles',
+          src: ['*.css', '!*.min.css'],
+          dest: 'dist/styles',
+          ext: '.min.css'
+        }]
+      }
+    },
     uglify: {
       all: {
         files: [{
@@ -86,8 +100,9 @@ module.exports = function(grunt) {
     },
     watch: {
       options: {
-          spawn: false,
-          livereload: true
+        spawn: false,
+        reload: true,
+        livereload: true,
       },
       scripts: {
         files: [
@@ -125,6 +140,7 @@ module.exports = function(grunt) {
     
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -141,5 +157,5 @@ module.exports = function(grunt) {
       'uglify:prod']
     );
     grunt.registerTask('default',
-      ['jshint', 'sass', 'open', 'watch']);
+      ['jshint', 'sass', 'cssmin', 'open', 'watch']);
     };
